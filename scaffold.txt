@@ -1,0 +1,24 @@
+code_inventory_scanner/
+├── pyproject.toml
+├── README.md
+├── DESIGN.md
+├── mkdocs.yml
+├── docs/
+│   ├── index.md
+│   └── architecture.md
+├── src/
+│   └── code_inventory/
+│       ├── __init__.py
+│       ├── cli.py
+│       ├── logging_config.py
+│       ├── models.py
+│       ├── csv_writer.py
+│       ├── scanner.py
+│       ├── detectors.py
+│       └── service.py
+└── tests/
+    ├── unit/
+    │   ├── test_detectors.py
+    │   └── test_scanner.py
+    └── integration/
+        └── test_cli_inventory.py

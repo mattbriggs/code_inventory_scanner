@@ -1,0 +1,38 @@
+site_name: Code Inventory Scanner
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Design: design.md
+  - API Reference:
+      - Overview: api/index.md
+      - CLI: api/cli.md
+      - Service: api/service.md
+      - Scanner: api/scanner.md
+      - Detectors: api/detectors.md
+      - Models: api/models.md
+      - CSV Writer: api/csv_writer.md
+      - Logging Config: api/logging_config.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra:
+  generator: false

@@ -1,0 +1,1 @@
+"""Code inventory scanner package."""
